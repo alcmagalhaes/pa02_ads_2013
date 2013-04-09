@@ -1,0 +1,32 @@
+# Baixando o repositorio github
+git clone git@github.com:alcmagalhaes/pa02_ads_2013.git
+
+# Atualizando repositorio instalado
+cd pa02_ads_2013
+git pull
+
+# Mudando de branch (tronco de desenvolvimento
+git branch nome_do_branch (atualmente: stable - versao estavel; developer - versao de desenvolvimento
+
+# Criando branch a partir de outro branch
+git branch new_branch old_branch
+
+# Apagando um branch
+git branch -d nome_do_branch
+
+# Adicionando arquivos
+# todos os arquivos
+git add *
+# arquivo
+git add caminho_do_arquivo/arquivo
+
+# Commit das alteracoes efetuadas
+git commit -a 
+# vai abrir a tela do editor VI com os codigos que foram alterados
+# aperte a tecla "i" para entrar no modo de edicao e digite a mensagem
+# contendo informacoes das alteracoes efetuadas no codigo. Em seguida
+# aperte a tecla "ESC" e digite ":wq"
+
+# Enviando alteracoes para o github
+git push
+
