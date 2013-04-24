@@ -1,0 +1,7 @@
+d:\documents\visual studio 2010\Projects\JogoDaForca\JogoDaForca\bin\Debug\JogoDaForca.exe
+d:\documents\visual studio 2010\Projects\JogoDaForca\JogoDaForca\bin\Debug\JogoDaForca.pdb
+d:\documents\visual studio 2010\Projects\JogoDaForca\JogoDaForca\obj\x86\Debug\JogoDaForca.Form1.resources
+d:\documents\visual studio 2010\Projects\JogoDaForca\JogoDaForca\obj\x86\Debug\JogoDaForca.Properties.Resources.resources
+d:\documents\visual studio 2010\Projects\JogoDaForca\JogoDaForca\obj\x86\Debug\JogoDaForca.csproj.GenerateResource.Cache
+d:\documents\visual studio 2010\Projects\JogoDaForca\JogoDaForca\obj\x86\Debug\JogoDaForca.exe
+d:\documents\visual studio 2010\Projects\JogoDaForca\JogoDaForca\obj\x86\Debug\JogoDaForca.pdb
