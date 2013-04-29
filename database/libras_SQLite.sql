@@ -11,8 +11,9 @@ BEGIN;
 CREATE TABLE "tb_alfabeto"(
   "alf_id" INTEGER PRIMARY KEY NOT NULL,
   "alf_ptBR" VARCHAR(2),
+  "alf_ptBR_img" BLOB,
   "alf_libras" BLOB
-);
+)
 CREATE TABLE "tb_dicionario"(
   "dic_id" INTEGER PRIMARY KEY NOT NULL,
   "dic_palavras" VARCHAR(45),
