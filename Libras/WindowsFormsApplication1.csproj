@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EDF169A4-84C1-4EED-A838-192067122EC5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BancoDeDados.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Alfabeto_Libras\0.jpg" />
+    <Content Include="Alfabeto_Libras\1.jpg" />
+    <Content Include="Alfabeto_Libras\2.jpg" />
+    <Content Include="Alfabeto_Libras\3.jpg" />
+    <Content Include="Alfabeto_Libras\4.jpg" />
+    <Content Include="Alfabeto_Libras\5.jpg" />
+    <Content Include="Alfabeto_Libras\6.jpg" />
+    <Content Include="Alfabeto_Libras\7.jpg" />
+    <Content Include="Alfabeto_Libras\8.jpg" />
+    <Content Include="Alfabeto_Libras\9.jpg" />
+    <Content Include="Alfabeto_Libras\A.jpg" />
+    <Content Include="Alfabeto_Libras\B.jpg" />
+    <Content Include="Alfabeto_Libras\C.jpg" />
+    <Content Include="Alfabeto_Libras\D.jpg" />
+    <Content Include="Alfabeto_Libras\E.jpg" />
+    <Content Include="Alfabeto_Libras\F.jpg" />
+    <Content Include="Alfabeto_Libras\G.jpg" />
+    <Content Include="Alfabeto_Libras\H.jpg" />
+    <Content Include="Alfabeto_Libras\I.jpg" />
+    <Content Include="Alfabeto_Libras\J.jpg" />
+    <Content Include="Alfabeto_Libras\K.jpg" />
+    <Content Include="Alfabeto_Libras\L.jpg" />
+    <Content Include="Alfabeto_Libras\M.jpg" />
+    <Content Include="Alfabeto_Libras\N.jpg" />
+    <Content Include="Alfabeto_Libras\O.jpg" />
+    <Content Include="Alfabeto_Libras\P.jpg" />
+    <Content Include="Alfabeto_Libras\Q.jpg" />
+    <Content Include="Alfabeto_Libras\R.jpg" />
+    <Content Include="Alfabeto_Libras\S.jpg" />
+    <Content Include="Alfabeto_Libras\T.jpg" />
+    <Content Include="Alfabeto_Libras\U.jpg" />
+    <Content Include="Alfabeto_Libras\V.jpg" />
+    <Content Include="Alfabeto_Libras\W.jpg" />
+    <Content Include="Alfabeto_Libras\X.jpg" />
+    <Content Include="Alfabeto_Libras\Y.jpg" />
+    <Content Include="Alfabeto_Libras\Z.jpg" />
+    <Content Include="Alfabeto_Libras\Ç.jpg" />
+    <Content Include="Imagens\Abelha.jpg" />
+    <Content Include="Imagens\Borboleta.jpg" />
+    <Content Include="Imagens\Canguru.jpg" />
+    <Content Include="Imagens\Dromedário.jpg" />
+    <Content Include="Imagens\Ema.jpg" />
+    <Content Include="Imagens\Foca.jpg" />
+    <Content Include="Imagens\Galinha.jpg" />
+    <Content Include="Imagens\Hiena.jpg" />
+    <Content Include="Imagens\Iguana.jpg" />
+    <Content Include="Imagens\Jibóia.jpg" />
+    <Content Include="Imagens\Leão.jpg" />
+    <Content Include="Imagens\Macaco.jpg" />
+    <Content Include="Imagens\Naja.jpg" />
+    <Content Include="Imagens\Ovelha.jpg" />
+    <Content Include="Imagens\Pinguim.jpg" />
+    <Content Include="Imagens\Quati.jpg" />
+    <Content Include="Imagens\Rato.jpg" />
+    <Content Include="Imagens\Sapo.jpg" />
+    <Content Include="Imagens\Tartaruga.jpg" />
+    <Content Include="Imagens\Urubu.jpg" />
+    <Content Include="Imagens\Vaca.jpg" />
+    <Content Include="Imagens\Ximago.jpg" />
+    <Content Include="Imagens\Zebra.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
