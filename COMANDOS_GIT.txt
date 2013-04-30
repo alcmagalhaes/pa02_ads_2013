@@ -1,6 +1,10 @@
 # Baixando o repositorio github
 git clone git@github.com:alcmagalhaes/pa02_ads_2013.git
 
+# Criando informacoes de usuario e email de commit
+git config --global user.name "usuario_github"
+git config --global user.mail "email_github"
+
 # Atualizando repositorio instalado
 cd pa02_ads_2013
 git pull
