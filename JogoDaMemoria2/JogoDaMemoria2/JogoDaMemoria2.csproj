@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +76,115 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\a.jpg" />
+    <Content Include="Resources\a_br.jpg" />
+    <Content Include="Resources\b.jpg" />
+    <Content Include="Resources\b_br.jpg" />
+    <Content Include="Resources\c.jpg" />
+    <Content Include="Resources\c_br.jpg" />
+    <Content Include="Resources\d.jpg" />
+    <Content Include="Resources\d_br.jpg" />
+    <Content Include="Resources\e.jpg" />
+    <Content Include="Resources\e_br.jpg" />
+    <Content Include="Resources\f.jpg" />
+    <Content Include="Resources\fundo.jpg" />
+    <Content Include="Resources\f_br.jpg" />
+    <Content Include="Resources\g.jpg" />
+    <Content Include="Resources\g_br.jpg" />
+    <Content Include="Resources\h.jpg" />
+    <Content Include="Resources\h_br.jpg" />
+    <Content Include="Resources\i.jpg" />
+    <Content Include="Resources\i_br.jpg" />
+    <Content Include="Resources\j.jpg" />
+    <Content Include="Resources\j_br.jpg" />
+    <Content Include="Resources\k.jpg" />
+    <Content Include="Resources\k_br.jpg" />
+    <Content Include="Resources\l.jpg" />
+    <Content Include="Resources\l_br.jpg" />
+    <Content Include="Resources\m.jpg" />
+    <Content Include="Resources\m_br.jpg" />
+    <Content Include="Resources\n.jpg" />
+    <Content Include="Resources\n_br.jpg" />
+    <Content Include="Resources\o.jpg" />
+    <Content Include="Resources\o_br.jpg" />
+    <Content Include="Resources\p.jpg" />
+    <Content Include="Resources\p_br.jpg" />
+    <Content Include="Resources\q.jpg" />
+    <Content Include="Resources\q_br.jpg" />
+    <Content Include="Resources\r.jpg" />
+    <Content Include="Resources\r_br.jpg" />
+    <Content Include="Resources\s.jpg" />
+    <Content Include="Resources\s_br.jpg" />
+    <Content Include="Resources\t.jpg" />
+    <Content Include="Resources\t_br.jpg" />
+    <Content Include="Resources\u.jpg" />
+    <Content Include="Resources\u_br.jpg" />
+    <Content Include="Resources\v.jpg" />
+    <Content Include="Resources\v_br.jpg" />
+    <Content Include="Resources\w.jpg" />
+    <Content Include="Resources\w_br.jpg" />
+    <Content Include="Resources\x.jpg" />
+    <Content Include="Resources\x_br.jpg" />
+    <Content Include="Resources\y.jpg" />
+    <Content Include="Resources\y_br.jpg" />
+    <Content Include="Resources\z.jpg" />
+    <Content Include="Resources\z_br.jpg" />
+    <None Include="temp\z_br.jpg" />
+    <None Include="temp\z.jpg" />
+    <None Include="temp\y_br.jpg" />
+    <None Include="temp\y.jpg" />
+    <None Include="temp\x_br.jpg" />
+    <None Include="temp\x.jpg" />
+    <None Include="temp\w_br.jpg" />
+    <None Include="temp\w.jpg" />
+    <None Include="temp\v_br.jpg" />
+    <None Include="temp\v.jpg" />
+    <None Include="temp\u_br.jpg" />
+    <None Include="temp\u.jpg" />
+    <None Include="temp\t_br.jpg" />
+    <None Include="temp\t.jpg" />
+    <None Include="temp\s_br.jpg" />
+    <None Include="temp\s.jpg" />
+    <None Include="temp\r_br.jpg" />
+    <None Include="temp\r.jpg" />
+    <None Include="temp\q_br.jpg" />
+    <None Include="temp\q.jpg" />
+    <None Include="temp\p_br.jpg" />
+    <None Include="temp\p.jpg" />
+    <None Include="temp\o_br.jpg" />
+    <None Include="temp\o.jpg" />
+    <None Include="temp\n_br.jpg" />
+    <None Include="temp\n.jpg" />
+    <None Include="temp\m_br.jpg" />
+    <None Include="temp\m.jpg" />
+    <None Include="temp\l_br.jpg" />
+    <None Include="temp\l.jpg" />
+    <None Include="temp\k_br.jpg" />
+    <None Include="temp\k.jpg" />
+    <None Include="temp\j_br.jpg" />
+    <None Include="temp\j.jpg" />
+    <None Include="temp\i_br.jpg" />
+    <None Include="temp\i.jpg" />
+    <None Include="temp\h_br.jpg" />
+    <None Include="temp\h.jpg" />
+    <None Include="temp\g_br.jpg" />
+    <None Include="temp\g.jpg" />
+    <None Include="temp\fundo.jpg" />
+    <None Include="temp\f_br.jpg" />
+    <None Include="temp\f.jpg" />
+    <None Include="temp\e_br.jpg" />
+    <None Include="temp\e.jpg" />
+    <None Include="temp\d_br.jpg" />
+    <None Include="temp\d.jpg" />
+    <None Include="temp\c_br.jpg" />
+    <None Include="temp\c.jpg" />
+    <None Include="temp\b_br.jpg" />
+    <None Include="temp\b.jpg" />
+    <None Include="temp\a.jpg" />
+    <None Include="temp\a_br.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

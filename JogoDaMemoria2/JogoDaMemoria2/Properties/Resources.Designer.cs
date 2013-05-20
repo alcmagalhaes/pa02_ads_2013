@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace JogoDaMemoria2.Properties
-{
-
-
+namespace JogoDaMemoria2.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -22,528 +22,413 @@ namespace JogoDaMemoria2.Properties
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("JogoDaMemoria2.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
             }
         }
-
-        internal static System.Drawing.Bitmap fundo
-        {
-            get
-            {
-                object obj = ResourceManager.GetObject("fundo", resourceCulture);
+        
+        internal static System.Drawing.Bitmap a {
+            get {
+                object obj = ResourceManager.GetObject("a", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap a 
-        {
-            get 
-            {
-                object obj = ResourceManager.GetObject("a",resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
-        internal static System.Drawing.Bitmap a_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap a_br {
+            get {
                 object obj = ResourceManager.GetObject("a_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap b
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap b {
+            get {
                 object obj = ResourceManager.GetObject("b", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap b_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap b_br {
+            get {
                 object obj = ResourceManager.GetObject("b_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap c
-        {
-            get
-            {
+        internal static System.Drawing.Bitmap c {
+            get {
                 object obj = ResourceManager.GetObject("c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap c_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap c_br {
+            get {
                 object obj = ResourceManager.GetObject("c_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap d
-        {
-            get
-            {
+        internal static System.Drawing.Bitmap d {
+            get {
                 object obj = ResourceManager.GetObject("d", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap d_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap d_br {
+            get {
                 object obj = ResourceManager.GetObject("d_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap e
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap e {
+            get {
                 object obj = ResourceManager.GetObject("e", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap e_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap e_br {
+            get {
                 object obj = ResourceManager.GetObject("e_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap f
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap f {
+            get {
                 object obj = ResourceManager.GetObject("f", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap f_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap f_br {
+            get {
                 object obj = ResourceManager.GetObject("f_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap g
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap fundo {
+            get {
+                object obj = ResourceManager.GetObject("fundo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap g {
+            get {
                 object obj = ResourceManager.GetObject("g", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap g_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap g_br {
+            get {
                 object obj = ResourceManager.GetObject("g_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap h
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap h {
+            get {
                 object obj = ResourceManager.GetObject("h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap h_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap h_br {
+            get {
                 object obj = ResourceManager.GetObject("h_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap i
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap i {
+            get {
                 object obj = ResourceManager.GetObject("i", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap i_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap i_br {
+            get {
                 object obj = ResourceManager.GetObject("i_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap j
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap j {
+            get {
                 object obj = ResourceManager.GetObject("j", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap j_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap j_br {
+            get {
                 object obj = ResourceManager.GetObject("j_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap k
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap k {
+            get {
                 object obj = ResourceManager.GetObject("k", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap k_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap k_br {
+            get {
                 object obj = ResourceManager.GetObject("k_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap l
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap l {
+            get {
                 object obj = ResourceManager.GetObject("l", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap l_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap l_br {
+            get {
                 object obj = ResourceManager.GetObject("l_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap m
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap m {
+            get {
                 object obj = ResourceManager.GetObject("m", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap m_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap m_br {
+            get {
                 object obj = ResourceManager.GetObject("m_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap n
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap n {
+            get {
                 object obj = ResourceManager.GetObject("n", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap n_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap n_br {
+            get {
                 object obj = ResourceManager.GetObject("n_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap o
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap o {
+            get {
                 object obj = ResourceManager.GetObject("o", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap o_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap o_br {
+            get {
                 object obj = ResourceManager.GetObject("o_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap p
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap p {
+            get {
                 object obj = ResourceManager.GetObject("p", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap p_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap p_br {
+            get {
                 object obj = ResourceManager.GetObject("p_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap q
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap q {
+            get {
                 object obj = ResourceManager.GetObject("q", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap q_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap q_br {
+            get {
                 object obj = ResourceManager.GetObject("q_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap r
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap r {
+            get {
                 object obj = ResourceManager.GetObject("r", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap r_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap r_br {
+            get {
                 object obj = ResourceManager.GetObject("r_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap s
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap s {
+            get {
                 object obj = ResourceManager.GetObject("s", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap s_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap s_br {
+            get {
                 object obj = ResourceManager.GetObject("s_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap t
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap t {
+            get {
                 object obj = ResourceManager.GetObject("t", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap t_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap t_br {
+            get {
                 object obj = ResourceManager.GetObject("t_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap u
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap u {
+            get {
                 object obj = ResourceManager.GetObject("u", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap u_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap u_br {
+            get {
                 object obj = ResourceManager.GetObject("u_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap v
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap v {
+            get {
                 object obj = ResourceManager.GetObject("v", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap v_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap v_br {
+            get {
                 object obj = ResourceManager.GetObject("v_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap w
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap w {
+            get {
                 object obj = ResourceManager.GetObject("w", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap w_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap w_br {
+            get {
                 object obj = ResourceManager.GetObject("w_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap x
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap x {
+            get {
                 object obj = ResourceManager.GetObject("x", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap x_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap x_br {
+            get {
                 object obj = ResourceManager.GetObject("x_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap y
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap y {
+            get {
                 object obj = ResourceManager.GetObject("y", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap y_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap y_br {
+            get {
                 object obj = ResourceManager.GetObject("y_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap z
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap z {
+            get {
                 object obj = ResourceManager.GetObject("z", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-        internal static System.Drawing.Bitmap z_br
-        {
-            get
-            {
+        
+        internal static System.Drawing.Bitmap z_br {
+            get {
                 object obj = ResourceManager.GetObject("z_br", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
     }
 }

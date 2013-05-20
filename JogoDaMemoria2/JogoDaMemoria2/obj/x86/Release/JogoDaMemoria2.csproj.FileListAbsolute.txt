@@ -1,0 +1,9 @@
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria2\JogoDaMemoria2\bin\Release\JogoDaMemoria2.exe
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria2\JogoDaMemoria2\bin\Release\JogoDaMemoria2.pdb
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria2\JogoDaMemoria2\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria2\JogoDaMemoria2\obj\x86\Release\JogoDaMemoria2.Form1.resources
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria2\JogoDaMemoria2\obj\x86\Release\JogoDaMemoria2.Properties.Resources.resources
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria2\JogoDaMemoria2\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria2\JogoDaMemoria2\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria2\JogoDaMemoria2\obj\x86\Release\JogoDaMemoria2.exe
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria2\JogoDaMemoria2\obj\x86\Release\JogoDaMemoria2.pdb
