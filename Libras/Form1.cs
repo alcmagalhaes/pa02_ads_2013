@@ -76,7 +76,6 @@ namespace WindowsFormsApplication1
         {
             Alfabeto2 = new DataTable();
             Alfabeto2.Columns.Add("idAlfabeto");
-            Alfabeto2.Columns.Add("imagem");
             Alfabeto2.Columns.Add("libras");
 
             Alfabeto2.Rows.Add("A", @"C:\UNA\Libras\Alfabeto_Libras\A.jpg");
@@ -152,16 +151,17 @@ namespace WindowsFormsApplication1
             BtnLetraback.Enabled = true;
             BtnLetraNext.Enabled = true;
 
-            if (Posicao1 == 0)
+            if (Posicao2 == 0)
             {
                 BtnLetraback.Enabled = false;
             }
 
-            if (Alfabeto1.Rows.Count == Posicao1 + 1)
+            if (Alfabeto2.Rows.Count == Posicao2 + 1)
             {
                 BtnLetraNext.Enabled = false;
             }
         }
+
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
@@ -180,9 +180,7 @@ namespace WindowsFormsApplication1
             string imagem = Alfabeto1.Rows[Posicao1]["imagem"].ToString();
             string libras = Alfabeto1.Rows[Posicao1]["libras"].ToString();
             pictureBox1.ImageLocation = imagem;
-            pictureBox2.ImageLocation = libras;
-            
-            
+            lblSelecao1.Text = idAlfabeto;
 
             BotoesDeNavegacao1();
         }
@@ -201,12 +199,10 @@ namespace WindowsFormsApplication1
 
         private void CarregarImagem2()
         {
-            //string idAlfabeto = Alfabeto2.Rows[Posicao2]["idAlfabeto"].ToString();
-            //string imagem = Alfabeto2.Rows[Posicao2]["imagem"].ToString();
-            //string libras = Alfabeto2.Rows[Posicao2]["libras"].ToString();
-            //pictureBox1.ImageLocation = imagem;
-            //pictureBox2.ImageLocation = libras;
-
+            string idAlfabeto = Alfabeto2.Rows[Posicao2]["idAlfabeto"].ToString();
+            string libras = Alfabeto2.Rows[Posicao2]["libras"].ToString();
+            pictureBox2.ImageLocation = libras;
+            lblSelecao2.Text = idAlfabeto;
             BotoesDeNavegacao2();
         }
 
@@ -214,6 +210,19 @@ namespace WindowsFormsApplication1
         {
             Posicao2 = Posicao2 - 1;
             CarregarImagem2();
+        }
+
+        private void btnOk_Click(object sender, EventArgs e)
+        {
+            if (lblSelecao1.Text == lblSelecao2.Text)
+            {
+                MessageBox.Show("Sucesso!!!");
+            }
+            else
+            {
+                MessageBox.Show("Errou!!!");
+            }
+
         }
        
     }

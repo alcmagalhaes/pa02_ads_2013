@@ -45,6 +45,8 @@
             this.btnImagnext = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblSelecao1 = new System.Windows.Forms.Label();
+            this.lblSelecao2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imgLetra)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgImagem)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -133,6 +135,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.lblSelecao2);
+            this.groupBox2.Controls.Add(this.lblSelecao1);
             this.groupBox2.Controls.Add(this.BtnLetraNext);
             this.groupBox2.Controls.Add(this.BtnLetraback);
             this.groupBox2.Controls.Add(this.pictureBox2);
@@ -180,12 +184,13 @@
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(377, 275);
+            this.btnOk.Location = new System.Drawing.Point(377, 296);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(75, 23);
             this.btnOk.TabIndex = 14;
             this.btnOk.Text = "Confirmar";
             this.btnOk.UseVisualStyleBackColor = true;
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // btnImagBack
             // 
@@ -223,6 +228,26 @@
             this.label1.Size = new System.Drawing.Size(426, 13);
             this.label1.TabIndex = 10;
             this.label1.Text = "ESCOLHA UMA IMAGEM E INFORME A LETRA EM LIBRAS QUE LHE REPRESENTA";
+            // 
+            // lblSelecao1
+            // 
+            this.lblSelecao1.AutoSize = true;
+            this.lblSelecao1.Location = new System.Drawing.Point(7, 450);
+            this.lblSelecao1.Name = "lblSelecao1";
+            this.lblSelecao1.Size = new System.Drawing.Size(43, 13);
+            this.lblSelecao1.TabIndex = 18;
+            this.lblSelecao1.Text = "imagem";
+            this.lblSelecao1.Visible = false;
+            // 
+            // lblSelecao2
+            // 
+            this.lblSelecao2.AutoSize = true;
+            this.lblSelecao2.Location = new System.Drawing.Point(7, 473);
+            this.lblSelecao2.Name = "lblSelecao2";
+            this.lblSelecao2.Size = new System.Drawing.Size(26, 13);
+            this.lblSelecao2.TabIndex = 19;
+            this.lblSelecao2.Text = "libra";
+            this.lblSelecao2.Visible = false;
             // 
             // Form1
             // 
@@ -265,6 +290,8 @@
         private System.Windows.Forms.Button btnOk;
         private System.Windows.Forms.Button BtnLetraNext;
         private System.Windows.Forms.Button BtnLetraback;
+        private System.Windows.Forms.Label lblSelecao2;
+        private System.Windows.Forms.Label lblSelecao1;
     }
 }
 
