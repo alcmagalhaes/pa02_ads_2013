@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libras", "libras.csproj", "{EDF169A4-84C1-4EED-A838-192067122EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "memoria", "..\Memoria\memoria.csproj", "{8C60DE5F-52E1-4DE5-88C1-ACECC8CB633F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forca", "..\Forca\forca.csproj", "{1BB1F9A0-CD82-44B2-AFAA-75BBC349CFFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDF169A4-84C1-4EED-A838-192067122EC5}.Debug|x86.ActiveCfg = Debug|x86
+		{EDF169A4-84C1-4EED-A838-192067122EC5}.Debug|x86.Build.0 = Debug|x86
+		{EDF169A4-84C1-4EED-A838-192067122EC5}.Release|x86.ActiveCfg = Release|x86
+		{EDF169A4-84C1-4EED-A838-192067122EC5}.Release|x86.Build.0 = Release|x86
+		{8C60DE5F-52E1-4DE5-88C1-ACECC8CB633F}.Debug|x86.ActiveCfg = Debug|x86
+		{8C60DE5F-52E1-4DE5-88C1-ACECC8CB633F}.Debug|x86.Build.0 = Debug|x86
+		{8C60DE5F-52E1-4DE5-88C1-ACECC8CB633F}.Release|x86.ActiveCfg = Release|x86
+		{8C60DE5F-52E1-4DE5-88C1-ACECC8CB633F}.Release|x86.Build.0 = Release|x86
+		{1BB1F9A0-CD82-44B2-AFAA-75BBC349CFFD}.Debug|x86.ActiveCfg = Debug|x86
+		{1BB1F9A0-CD82-44B2-AFAA-75BBC349CFFD}.Debug|x86.Build.0 = Debug|x86
+		{1BB1F9A0-CD82-44B2-AFAA-75BBC349CFFD}.Release|x86.ActiveCfg = Release|x86
+		{1BB1F9A0-CD82-44B2-AFAA-75BBC349CFFD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

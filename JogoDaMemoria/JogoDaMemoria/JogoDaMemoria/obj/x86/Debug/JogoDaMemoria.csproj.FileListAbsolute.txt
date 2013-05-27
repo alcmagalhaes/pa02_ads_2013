@@ -1,9 +1,0 @@
-C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria\JogoDaMemoria\JogoDaMemoria\bin\Debug\JogoDaMemoria.exe
-C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria\JogoDaMemoria\JogoDaMemoria\bin\Debug\JogoDaMemoria.pdb
-C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria\JogoDaMemoria\JogoDaMemoria\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria\JogoDaMemoria\JogoDaMemoria\obj\x86\Debug\Memory.frmMain.resources
-C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria\JogoDaMemoria\JogoDaMemoria\obj\x86\Debug\JogoDaMemoria.Properties.Resources.resources
-C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria\JogoDaMemoria\JogoDaMemoria\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria\JogoDaMemoria\JogoDaMemoria\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria\JogoDaMemoria\JogoDaMemoria\obj\x86\Debug\JogoDaMemoria.exe
-C:\Users\andre\Desktop\Libras\pa02_ads_2013\JogoDaMemoria\JogoDaMemoria\JogoDaMemoria\obj\x86\Debug\JogoDaMemoria.pdb

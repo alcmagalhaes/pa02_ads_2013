@@ -1,6 +1,6 @@
 ﻿namespace libras
 {
-    partial class frmCadastro
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,184 +28,189 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblaluno = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lblmae = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.lblpai = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.lbldtnascimento = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.btngravar = new System.Windows.Forms.Button();
-            this.lblcadastro = new System.Windows.Forms.Label();
-            this.lblnivel = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.lblhorario = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblSelecao2 = new System.Windows.Forms.Label();
+            this.lblSelecao1 = new System.Windows.Forms.Label();
+            this.BtnLetraNext = new System.Windows.Forms.Button();
+            this.BtnLetraback = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnOk = new System.Windows.Forms.Button();
+            this.btnImagBack = new System.Windows.Forms.Button();
+            this.btnImagnext = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblaluno
+            // groupBox2
             // 
-            this.lblaluno.AutoSize = true;
-            this.lblaluno.Location = new System.Drawing.Point(13, 75);
-            this.lblaluno.Name = "lblaluno";
-            this.lblaluno.Size = new System.Drawing.Size(38, 13);
-            this.lblaluno.TabIndex = 0;
-            this.lblaluno.Text = "Nome:";
+            this.groupBox2.Controls.Add(this.lblSelecao2);
+            this.groupBox2.Controls.Add(this.lblSelecao1);
+            this.groupBox2.Controls.Add(this.BtnLetraNext);
+            this.groupBox2.Controls.Add(this.BtnLetraback);
+            this.groupBox2.Controls.Add(this.pictureBox2);
+            this.groupBox2.Controls.Add(this.btnOk);
+            this.groupBox2.Controls.Add(this.btnImagBack);
+            this.groupBox2.Controls.Add(this.btnImagnext);
+            this.groupBox2.Controls.Add(this.pictureBox1);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Location = new System.Drawing.Point(12, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(518, 509);
+            this.groupBox2.TabIndex = 13;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Teste de Conhecimento";
             // 
-            // textBox1
+            // lblSelecao2
             // 
-            this.textBox1.Location = new System.Drawing.Point(57, 75);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(294, 20);
-            this.textBox1.TabIndex = 1;
+            this.lblSelecao2.AutoSize = true;
+            this.lblSelecao2.Location = new System.Drawing.Point(7, 473);
+            this.lblSelecao2.Name = "lblSelecao2";
+            this.lblSelecao2.Size = new System.Drawing.Size(26, 13);
+            this.lblSelecao2.TabIndex = 19;
+            this.lblSelecao2.Text = "libra";
+            this.lblSelecao2.Visible = false;
             // 
-            // lblmae
+            // lblSelecao1
             // 
-            this.lblmae.AutoSize = true;
-            this.lblmae.Location = new System.Drawing.Point(12, 126);
-            this.lblmae.Name = "lblmae";
-            this.lblmae.Size = new System.Drawing.Size(77, 13);
-            this.lblmae.TabIndex = 2;
-            this.lblmae.Text = "Nome da Mãe:";
+            this.lblSelecao1.AutoSize = true;
+            this.lblSelecao1.Location = new System.Drawing.Point(7, 450);
+            this.lblSelecao1.Name = "lblSelecao1";
+            this.lblSelecao1.Size = new System.Drawing.Size(43, 13);
+            this.lblSelecao1.TabIndex = 18;
+            this.lblSelecao1.Text = "imagem";
+            this.lblSelecao1.Visible = false;
             // 
-            // textBox2
+            // BtnLetraNext
             // 
-            this.textBox2.Location = new System.Drawing.Point(95, 119);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(256, 20);
-            this.textBox2.TabIndex = 3;
+            this.BtnLetraNext.Location = new System.Drawing.Point(417, 240);
+            this.BtnLetraNext.Name = "BtnLetraNext";
+            this.BtnLetraNext.Size = new System.Drawing.Size(75, 23);
+            this.BtnLetraNext.TabIndex = 17;
+            this.BtnLetraNext.Text = "Letra >>";
+            this.BtnLetraNext.UseVisualStyleBackColor = true;
+            this.BtnLetraNext.Click += new System.EventHandler(this.BtnLetraNext_Click);
             // 
-            // lblpai
+            // BtnLetraback
             // 
-            this.lblpai.AutoSize = true;
-            this.lblpai.Location = new System.Drawing.Point(13, 173);
-            this.lblpai.Name = "lblpai";
-            this.lblpai.Size = new System.Drawing.Size(71, 13);
-            this.lblpai.TabIndex = 4;
-            this.lblpai.Text = "Nome do Pai:";
+            this.BtnLetraback.Location = new System.Drawing.Point(322, 240);
+            this.BtnLetraback.Name = "BtnLetraback";
+            this.BtnLetraback.Size = new System.Drawing.Size(75, 23);
+            this.BtnLetraback.TabIndex = 16;
+            this.BtnLetraback.Text = "<< Letra";
+            this.BtnLetraback.UseVisualStyleBackColor = true;
+            this.BtnLetraback.Click += new System.EventHandler(this.BtnLetraback_Click);
             // 
-            // textBox3
+            // pictureBox2
             // 
-            this.textBox3.Location = new System.Drawing.Point(95, 166);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(256, 20);
-            this.textBox3.TabIndex = 5;
+            this.pictureBox2.Location = new System.Drawing.Point(322, 68);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(173, 156);
+            this.pictureBox2.TabIndex = 15;
+            this.pictureBox2.TabStop = false;
             // 
-            // lbldtnascimento
+            // btnOk
             // 
-            this.lbldtnascimento.AutoSize = true;
-            this.lbldtnascimento.Location = new System.Drawing.Point(12, 218);
-            this.lbldtnascimento.Name = "lbldtnascimento";
-            this.lbldtnascimento.Size = new System.Drawing.Size(107, 13);
-            this.lbldtnascimento.TabIndex = 6;
-            this.lbldtnascimento.Text = "Data de Nascimento:";
+            this.btnOk.Location = new System.Drawing.Point(377, 296);
+            this.btnOk.Name = "btnOk";
+            this.btnOk.Size = new System.Drawing.Size(75, 23);
+            this.btnOk.TabIndex = 14;
+            this.btnOk.Text = "Confirmar";
+            this.btnOk.UseVisualStyleBackColor = true;
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
-            // textBox4
+            // btnImagBack
             // 
-            this.textBox4.Location = new System.Drawing.Point(120, 215);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(126, 20);
-            this.textBox4.TabIndex = 7;
+            this.btnImagBack.Location = new System.Drawing.Point(81, 336);
+            this.btnImagBack.Name = "btnImagBack";
+            this.btnImagBack.Size = new System.Drawing.Size(75, 23);
+            this.btnImagBack.TabIndex = 13;
+            this.btnImagBack.Text = "<< Imagen";
+            this.btnImagBack.UseVisualStyleBackColor = true;
+            this.btnImagBack.Click += new System.EventHandler(this.btnImagBack_Click);
             // 
-            // btngravar
+            // btnImagnext
             // 
-            this.btngravar.Location = new System.Drawing.Point(282, 298);
-            this.btngravar.Name = "btngravar";
-            this.btngravar.Size = new System.Drawing.Size(69, 23);
-            this.btngravar.TabIndex = 8;
-            this.btngravar.Text = "Gravar";
-            this.btngravar.UseVisualStyleBackColor = true;
-            this.btngravar.Click += new System.EventHandler(this.btngravar_Click);
+            this.btnImagnext.Location = new System.Drawing.Point(181, 336);
+            this.btnImagnext.Name = "btnImagnext";
+            this.btnImagnext.Size = new System.Drawing.Size(75, 23);
+            this.btnImagnext.TabIndex = 12;
+            this.btnImagnext.Text = "Imagen >>";
+            this.btnImagnext.UseVisualStyleBackColor = true;
+            this.btnImagnext.Click += new System.EventHandler(this.btnImagnext_Click);
             // 
-            // lblcadastro
+            // pictureBox1
             // 
-            this.lblcadastro.AutoSize = true;
-            this.lblcadastro.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcadastro.ForeColor = System.Drawing.Color.Red;
-            this.lblcadastro.Location = new System.Drawing.Point(43, 9);
-            this.lblcadastro.Name = "lblcadastro";
-            this.lblcadastro.Size = new System.Drawing.Size(258, 32);
-            this.lblcadastro.TabIndex = 9;
-            this.lblcadastro.Text = "Cadastro de Aluno";
+            this.pictureBox1.Location = new System.Drawing.Point(29, 68);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(272, 244);
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
             // 
-            // lblnivel
+            // label1
             // 
-            this.lblnivel.AutoSize = true;
-            this.lblnivel.Location = new System.Drawing.Point(13, 263);
-            this.lblnivel.Name = "lblnivel";
-            this.lblnivel.Size = new System.Drawing.Size(79, 13);
-            this.lblnivel.TabIndex = 10;
-            this.lblnivel.Text = "Nivel do Aluno:";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(26, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(426, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "ESCOLHA UMA IMAGEM E INFORME A LETRA EM LIBRAS QUE LHE REPRESENTA";
             // 
-            // comboBox2
+            // label2
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(111, 256);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(150, 21);
-            this.comboBox2.TabIndex = 11;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, -13);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(201, 13);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Escolha uma Figura e Monte sua Palavra";
             // 
-            // lblhorario
+            // button2
             // 
-            this.lblhorario.AutoSize = true;
-            this.lblhorario.Location = new System.Drawing.Point(13, 308);
-            this.lblhorario.Name = "lblhorario";
-            this.lblhorario.Size = new System.Drawing.Size(95, 13);
-            this.lblhorario.TabIndex = 12;
-            this.lblhorario.Text = "Horario de Estudo:";
+            this.button2.Location = new System.Drawing.Point(220, -23);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Começar";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(111, 298);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(150, 21);
-            this.comboBox1.TabIndex = 13;
-            // 
-            // frmCadastro
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(386, 365);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.lblhorario);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.lblnivel);
-            this.Controls.Add(this.lblcadastro);
-            this.Controls.Add(this.btngravar);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.lbldtnascimento);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.lblpai);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.lblmae);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.lblaluno);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "frmCadastro";
-            this.Text = "Cadastro de Aluno";
-            this.Load += new System.EventHandler(this.frmCadastro_Load);
+            this.ClientSize = new System.Drawing.Size(544, 533);
+            this.Controls.Add(this.groupBox2);
+            this.Name = "Form2";
+            this.Text = "Jogo de Adivinhacao";
+            this.Load += new System.EventHandler(this.Form2_Load);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label lblaluno;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label lblmae;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label lblpai;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label lbldtnascimento;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button btngravar;
-        private System.Windows.Forms.Label lblcadastro;
-        private System.Windows.Forms.Label lblnivel;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label lblhorario;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label lblSelecao2;
+        private System.Windows.Forms.Label lblSelecao1;
+        private System.Windows.Forms.Button BtnLetraNext;
+        private System.Windows.Forms.Button BtnLetraback;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnOk;
+        private System.Windows.Forms.Button btnImagBack;
+        private System.Windows.Forms.Button btnImagnext;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button2;
     }
 }

@@ -1,0 +1,9 @@
+C:\UNA\Forca\bin\Release\forca.exe
+C:\UNA\Forca\bin\Release\forca.pdb
+C:\UNA\Forca\obj\x86\Release\ResolveAssemblyReference.cache
+C:\UNA\Forca\obj\x86\Release\forca.Form1.resources
+C:\UNA\Forca\obj\x86\Release\forca.Properties.Resources.resources
+C:\UNA\Forca\obj\x86\Release\GenerateResource.read.1.tlog
+C:\UNA\Forca\obj\x86\Release\GenerateResource.write.1.tlog
+C:\UNA\Forca\obj\x86\Release\forca.exe
+C:\UNA\Forca\obj\x86\Release\forca.pdb

@@ -1,0 +1,9 @@
+C:\UNA\Memoria\bin\Release\memoria.exe
+C:\UNA\Memoria\bin\Release\memoria.pdb
+C:\UNA\Memoria\obj\x86\Release\ResolveAssemblyReference.cache
+C:\UNA\Memoria\obj\x86\Release\memoria.Form1.resources
+C:\UNA\Memoria\obj\x86\Release\memoria.Properties.Resources.resources
+C:\UNA\Memoria\obj\x86\Release\GenerateResource.read.1.tlog
+C:\UNA\Memoria\obj\x86\Release\GenerateResource.write.1.tlog
+C:\UNA\Memoria\obj\x86\Release\memoria.exe
+C:\UNA\Memoria\obj\x86\Release\memoria.pdb

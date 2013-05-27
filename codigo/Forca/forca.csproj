@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1BB1F9A0-CD82-44B2-AFAA-75BBC349CFFD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>forca</RootNamespace>
+    <AssemblyName>forca</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\k.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\u.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

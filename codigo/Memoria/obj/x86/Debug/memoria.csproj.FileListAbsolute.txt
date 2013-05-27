@@ -1,0 +1,15 @@
+C:\UNA\memoria\MemoryGameWFA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\UNA\memoria\MemoryGameWFA\obj\x86\Debug\memoria.Form1.resources
+C:\UNA\memoria\MemoryGameWFA\obj\x86\Debug\memoria.Properties.Resources.resources
+C:\UNA\memoria\MemoryGameWFA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\UNA\memoria\MemoryGameWFA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\UNA\memoria\MemoryGameWFA\bin\Debug\memoria.exe
+C:\UNA\memoria\MemoryGameWFA\bin\Debug\memoria.pdb
+C:\UNA\memoria\MemoryGameWFA\obj\x86\Debug\memoria.exe
+C:\UNA\memoria\MemoryGameWFA\obj\x86\Debug\memoria.pdb
+C:\UNA\Libras\memoria\MemoryGameWFA\obj\x86\Debug\memoria.exe
+C:\UNA\Libras\memoria\MemoryGameWFA\obj\x86\Debug\memoria.pdb
+C:\UNA\memoria\memoria\obj\x86\Debug\memoria.exe
+C:\UNA\memoria\memoria\obj\x86\Debug\memoria.pdb
+C:\UNA\Memoria\obj\x86\Debug\memoria.exe
+C:\UNA\Memoria\obj\x86\Debug\memoria.pdb

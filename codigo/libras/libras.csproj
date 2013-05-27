@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3BD0FFBD-3421-46E6-A792-A0F4FE66366E}</ProjectGuid>
+    <ProjectGuid>{EDF169A4-84C1-4EED-A838-192067122EC5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>libras</RootNamespace>
@@ -13,6 +13,21 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -46,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BancoDeDados.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,18 +74,6 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Principal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Principal.Designer.cs">
-      <DependentUpon>Principal.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -77,12 +81,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Principal.resx">
-      <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -94,6 +92,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -105,7 +104,351 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Y.jpg" />
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\k_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\k_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\u_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\u_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z_br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z_img.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\k_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\u_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\k_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\u_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z_lib.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Forca\forca.csproj">
+      <Project>{1BB1F9A0-CD82-44B2-AFAA-75BBC349CFFD}</Project>
+      <Name>forca</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Memoria\memoria.csproj">
+      <Project>{8C60DE5F-52E1-4DE5-88C1-ACECC8CB633F}</Project>
+      <Name>memoria</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

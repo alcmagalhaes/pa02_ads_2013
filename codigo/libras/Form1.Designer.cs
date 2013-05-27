@@ -1,6 +1,6 @@
 ﻿namespace libras
 {
-    partial class frmLogin
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,87 +28,141 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblAluno = new System.Windows.Forms.Label();
-            this.btnlogin = new System.Windows.Forms.Button();
-            this.lbllibras = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.btnProxima = new System.Windows.Forms.Button();
+            this.imgLetra = new System.Windows.Forms.PictureBox();
+            this.imgImagem = new System.Windows.Forms.PictureBox();
+            this.lblLetra = new System.Windows.Forms.Label();
+            this.btnAnterior = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnJogoAdivinha = new System.Windows.Forms.Button();
+            this.btnJogoForca = new System.Windows.Forms.Button();
+            this.btnJogoMemoria = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLetra)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgImagem)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblAluno
+            // btnProxima
             // 
-            this.lblAluno.AutoSize = true;
-            this.lblAluno.Location = new System.Drawing.Point(95, 170);
-            this.lblAluno.Name = "lblAluno";
-            this.lblAluno.Size = new System.Drawing.Size(37, 13);
-            this.lblAluno.TabIndex = 0;
-            this.lblAluno.Text = "Aluno:";
+            this.btnProxima.Location = new System.Drawing.Point(524, 312);
+            this.btnProxima.Name = "btnProxima";
+            this.btnProxima.Size = new System.Drawing.Size(120, 36);
+            this.btnProxima.TabIndex = 0;
+            this.btnProxima.Text = "Proxima Imagem >>";
+            this.btnProxima.UseVisualStyleBackColor = true;
+            this.btnProxima.Click += new System.EventHandler(this.Proximo_Click);
             // 
-            // btnlogin
+            // imgLetra
             // 
-            this.btnlogin.Location = new System.Drawing.Point(287, 161);
-            this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(53, 23);
-            this.btnlogin.TabIndex = 2;
-            this.btnlogin.Text = "Login";
-            this.btnlogin.UseVisualStyleBackColor = true;
-            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
+            this.imgLetra.Location = new System.Drawing.Point(365, 35);
+            this.imgLetra.Name = "imgLetra";
+            this.imgLetra.Size = new System.Drawing.Size(300, 250);
+            this.imgLetra.TabIndex = 2;
+            this.imgLetra.TabStop = false;
             // 
-            // lbllibras
+            // imgImagem
             // 
-            this.lbllibras.AutoSize = true;
-            this.lbllibras.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbllibras.Location = new System.Drawing.Point(23, 115);
-            this.lbllibras.Name = "lbllibras";
-            this.lbllibras.Size = new System.Drawing.Size(339, 18);
-            this.lbllibras.TabIndex = 3;
-            this.lbllibras.Text = "SISTEMA DE APRENDIZAGEM DE LIBRAS";
+            this.imgImagem.Location = new System.Drawing.Point(16, 35);
+            this.imgImagem.Name = "imgImagem";
+            this.imgImagem.Size = new System.Drawing.Size(325, 475);
+            this.imgImagem.TabIndex = 3;
+            this.imgImagem.TabStop = false;
             // 
-            // label1
+            // lblLetra
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 170);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Aluno:";
+            this.lblLetra.AutoSize = true;
+            this.lblLetra.Location = new System.Drawing.Point(325, 250);
+            this.lblLetra.Name = "lblLetra";
+            this.lblLetra.Size = new System.Drawing.Size(10, 13);
+            this.lblLetra.TabIndex = 4;
+            this.lblLetra.Text = ".";
             // 
-            // comboBox2
+            // btnAnterior
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(67, 161);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(214, 21);
-            this.comboBox2.TabIndex = 4;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.btnAnterior.Location = new System.Drawing.Point(387, 312);
+            this.btnAnterior.Name = "btnAnterior";
+            this.btnAnterior.Size = new System.Drawing.Size(122, 36);
+            this.btnAnterior.TabIndex = 10;
+            this.btnAnterior.Text = "<< Imagem Anterior";
+            this.btnAnterior.UseVisualStyleBackColor = true;
+            this.btnAnterior.Click += new System.EventHandler(this.Anterior_Click);
             // 
-            // frmLogin
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.btnJogoAdivinha);
+            this.groupBox1.Controls.Add(this.btnJogoForca);
+            this.groupBox1.Controls.Add(this.btnAnterior);
+            this.groupBox1.Controls.Add(this.btnJogoMemoria);
+            this.groupBox1.Controls.Add(this.btnProxima);
+            this.groupBox1.Controls.Add(this.imgLetra);
+            this.groupBox1.Controls.Add(this.imgImagem);
+            this.groupBox1.Controls.Add(this.lblLetra);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(689, 540);
+            this.groupBox1.TabIndex = 11;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Aprendendo Alfabeto de Libras";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // btnJogoAdivinha
+            // 
+            this.btnJogoAdivinha.Location = new System.Drawing.Point(387, 377);
+            this.btnJogoAdivinha.Name = "btnJogoAdivinha";
+            this.btnJogoAdivinha.Size = new System.Drawing.Size(122, 36);
+            this.btnJogoAdivinha.TabIndex = 22;
+            this.btnJogoAdivinha.Text = "Jogo de Adivinhacao";
+            this.btnJogoAdivinha.UseVisualStyleBackColor = true;
+            this.btnJogoAdivinha.Click += new System.EventHandler(this.btnJogoAdivinha_Click);
+            // 
+            // btnJogoForca
+            // 
+            this.btnJogoForca.Location = new System.Drawing.Point(387, 474);
+            this.btnJogoForca.Name = "btnJogoForca";
+            this.btnJogoForca.Size = new System.Drawing.Size(122, 36);
+            this.btnJogoForca.TabIndex = 21;
+            this.btnJogoForca.Text = "Jogo da Forca";
+            this.btnJogoForca.UseVisualStyleBackColor = true;
+            this.btnJogoForca.Click += new System.EventHandler(this.btnJogoForca_Click);
+            // 
+            // btnJogoMemoria
+            // 
+            this.btnJogoMemoria.Location = new System.Drawing.Point(387, 428);
+            this.btnJogoMemoria.Name = "btnJogoMemoria";
+            this.btnJogoMemoria.Size = new System.Drawing.Size(122, 36);
+            this.btnJogoMemoria.TabIndex = 20;
+            this.btnJogoMemoria.Text = "Jogo da Memoria";
+            this.btnJogoMemoria.UseVisualStyleBackColor = true;
+            this.btnJogoMemoria.Click += new System.EventHandler(this.btnJogoMemoria_Click);
+            // 
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(386, 365);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.lbllibras);
-            this.Controls.Add(this.btnlogin);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblAluno);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "frmLogin";
-            this.Text = "Acesso ao Sistema";
+            this.ClientSize = new System.Drawing.Size(715, 574);
+            this.Controls.Add(this.groupBox1);
+            this.Name = "Form1";
+            this.Text = "Aprendendo Alfabeto de Libras";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.imgLetra)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgImagem)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label lblAluno;
-        private System.Windows.Forms.Button btnlogin;
-        private System.Windows.Forms.Label lbllibras;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btnProxima;
+        private System.Windows.Forms.PictureBox imgLetra;
+        private System.Windows.Forms.PictureBox imgImagem;
+        private System.Windows.Forms.Label lblLetra;
+        private System.Windows.Forms.Button btnAnterior;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnJogoForca;
+        private System.Windows.Forms.Button btnJogoMemoria;
+        private System.Windows.Forms.Button btnJogoAdivinha;
     }
 }
 

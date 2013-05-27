@@ -1,11 +1,9 @@
-c:\users\francisco.menezes\documents\visual studio 2010\Projects\libras\libras\bin\Debug\libras.exe
-c:\users\francisco.menezes\documents\visual studio 2010\Projects\libras\libras\bin\Debug\libras.pdb
-c:\users\francisco.menezes\documents\visual studio 2010\Projects\libras\libras\obj\x86\Debug\libras.Properties.Resources.resources
-c:\users\francisco.menezes\documents\visual studio 2010\Projects\libras\libras\obj\x86\Debug\libras.csproj.GenerateResource.Cache
-c:\users\francisco.menezes\documents\visual studio 2010\Projects\libras\libras\obj\x86\Debug\libras.exe
-c:\users\francisco.menezes\documents\visual studio 2010\Projects\libras\libras\obj\x86\Debug\libras.pdb
-C:\Users\francisco.menezes\Documents\Visual Studio 2010\Projects\libras\libras\obj\x86\Debug\libras.csprojResolveAssemblyReference.cache
-C:\Users\francisco.menezes\Documents\Visual Studio 2010\Projects\libras\libras\obj\x86\Debug\libras.frmCadastro.resources
-C:\Users\francisco.menezes\Documents\Visual Studio 2010\Projects\libras\libras\obj\x86\Debug\libras.frmSistemas.resources
-C:\Users\francisco.menezes\Documents\Visual Studio 2010\Projects\libras\libras\obj\x86\Debug\libras.Principal.resources
-C:\Users\francisco.menezes\Documents\Visual Studio 2010\Projects\libras\libras\obj\x86\Debug\libras.frmLogin.resources
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\codigo\Libras\obj\x86\Debug\libras.exe
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\codigo\Libras\obj\x86\Debug\libras.pdb
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\codigo\Libras\bin\Debug\libras.exe
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\codigo\Libras\bin\Debug\libras.pdb
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\codigo\Libras\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\codigo\Libras\obj\x86\Debug\libras.Form1.resources
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\codigo\Libras\obj\x86\Debug\libras.Properties.Resources.resources
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\codigo\Libras\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\codigo\Libras\obj\x86\Debug\GenerateResource.write.1.tlog

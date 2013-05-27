@@ -1,0 +1,18 @@
+C:\Users\andre\Documents\Visual Studio 2010\Projects\MemoryGameWFA\MemoryGameWFA\bin\Debug\MemoryGameWFA.exe
+C:\Users\andre\Documents\Visual Studio 2010\Projects\MemoryGameWFA\MemoryGameWFA\bin\Debug\MemoryGameWFA.pdb
+C:\Users\andre\Documents\Visual Studio 2010\Projects\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\andre\Documents\Visual Studio 2010\Projects\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\MemoryGameWFA.Form1.resources
+C:\Users\andre\Documents\Visual Studio 2010\Projects\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\MemoryGameWFA.Properties.Resources.resources
+C:\Users\andre\Documents\Visual Studio 2010\Projects\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\andre\Documents\Visual Studio 2010\Projects\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\andre\Documents\Visual Studio 2010\Projects\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\MemoryGameWFA.exe
+C:\Users\andre\Documents\Visual Studio 2010\Projects\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\MemoryGameWFA.pdb
+C:\UNA\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\MemoryGameWFA.exe
+C:\UNA\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\MemoryGameWFA.pdb
+C:\UNA\MemoryGameWFA\MemoryGameWFA\bin\Debug\MemoryGameWFA.exe
+C:\UNA\MemoryGameWFA\MemoryGameWFA\bin\Debug\MemoryGameWFA.pdb
+C:\UNA\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\MemoryGameWFA.Form1.resources
+C:\UNA\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\MemoryGameWFA.Properties.Resources.resources
+C:\UNA\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\MemoryGameWFA.csproj.GenerateResource.Cache
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\codigo\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\MemoryGameWFA.exe
+C:\Users\andre\Desktop\Libras\pa02_ads_2013\codigo\MemoryGameWFA\MemoryGameWFA\obj\x86\Debug\MemoryGameWFA.pdb
