@@ -1,0 +1,11 @@
+d:\documents\visual studio 2010\Projects\paLibras\paLibras\bin\Debug\paLibras.exe
+d:\documents\visual studio 2010\Projects\paLibras\paLibras\bin\Debug\paLibras.pdb
+d:\documents\visual studio 2010\Projects\paLibras\paLibras\obj\x86\Debug\paLibras.Forca.resources
+d:\documents\visual studio 2010\Projects\paLibras\paLibras\obj\x86\Debug\paLibras.Memoria.resources
+d:\documents\visual studio 2010\Projects\paLibras\paLibras\obj\x86\Debug\paLibras.Principal.resources
+d:\documents\visual studio 2010\Projects\paLibras\paLibras\obj\x86\Debug\paLibras.Adivinhacao.resources
+d:\documents\visual studio 2010\Projects\paLibras\paLibras\obj\x86\Debug\paLibras.Properties.Resources.resources
+d:\documents\visual studio 2010\Projects\paLibras\paLibras\obj\x86\Debug\paLibras.csproj.GenerateResource.Cache
+d:\documents\visual studio 2010\Projects\paLibras\paLibras\obj\x86\Debug\paLibras.exe
+d:\documents\visual studio 2010\Projects\paLibras\paLibras\obj\x86\Debug\paLibras.pdb
+D:\Documents\Visual Studio 2010\Projects\paLibras\paLibras\obj\x86\Debug\paLibras.csprojResolveAssemblyReference.cache
