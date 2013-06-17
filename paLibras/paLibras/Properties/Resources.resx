@@ -394,9 +394,6 @@
   <data name="a_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\a_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="a_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -408,9 +405,6 @@
   </data>
   <data name="b_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="b_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -424,9 +418,6 @@
   <data name="c_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="c_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="d" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -438,9 +429,6 @@
   </data>
   <data name="d_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\d_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="d_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="e" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -454,9 +442,6 @@
   <data name="e_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\e_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="e_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -468,9 +453,6 @@
   </data>
   <data name="f_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\f_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="f_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="g" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\g.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -487,9 +469,6 @@
   <data name="g_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\g_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="g_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\g_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="h" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\h.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -501,9 +480,6 @@
   </data>
   <data name="h_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\h_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="h_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\h_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="i" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\i.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -517,9 +493,6 @@
   <data name="i_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\i_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="i_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\i_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="j" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\j.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -531,9 +504,6 @@
   </data>
   <data name="j_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\j_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="j_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\j_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="k" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\k.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -547,9 +517,6 @@
   <data name="k_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\k_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="k_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\k_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="l" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\l.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -561,9 +528,6 @@
   </data>
   <data name="l_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\l_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="l_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\l_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="m" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\m.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -577,9 +541,6 @@
   <data name="m_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\m_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="m_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -591,9 +552,6 @@
   </data>
   <data name="n_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\n_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="n_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\n_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="o" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -607,9 +565,6 @@
   <data name="o_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\o_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="o_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\o_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="p" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\p.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -621,9 +576,6 @@
   </data>
   <data name="p_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\p_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="p_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\p_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="q" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\q.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -637,9 +589,6 @@
   <data name="q_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\q_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="q_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\q_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="r" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\r.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -651,9 +600,6 @@
   </data>
   <data name="r_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\r_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="r_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\r_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\s.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -667,9 +613,6 @@
   <data name="s_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\s_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="s_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\s_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="t" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\t.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -681,9 +624,6 @@
   </data>
   <data name="t_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\t_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="t_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\t_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="u" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\u.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -697,9 +637,6 @@
   <data name="u_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\u_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="u_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\u_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="v" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\v.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -711,9 +648,6 @@
   </data>
   <data name="v_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\v_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="v_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\v_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="w" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\w.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -727,9 +661,6 @@
   <data name="w_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\w_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="w_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\w_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\x.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -741,9 +672,6 @@
   </data>
   <data name="x_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\x_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="x_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\x_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="y" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\y.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -757,9 +685,6 @@
   <data name="y_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\y_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="y_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\y_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="z" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\z.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -771,8 +696,5 @@
   </data>
   <data name="z_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\z_img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="z_lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\z_lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

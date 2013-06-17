@@ -377,9 +377,6 @@
     <None Include="Resources\b_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\b_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\c_big.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -387,9 +384,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\c_img.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\c_lib.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\d_big.jpg" />
@@ -401,9 +395,6 @@
     <None Include="Resources\d_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\d_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\e_big.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -411,9 +402,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\e_img.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\e_lib.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\f_big.jpg" />
@@ -425,9 +413,6 @@
     <None Include="Resources\f_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\f_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\g_big.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -435,9 +420,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\g_img.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\g_lib.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\h_big.jpg" />
@@ -449,9 +431,6 @@
     <None Include="Resources\h_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\h_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\i_big.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -459,9 +438,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\i_img.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\i_lib.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\j_big.jpg" />
@@ -473,9 +449,6 @@
     <None Include="Resources\j_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\j_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\k_big.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -483,9 +456,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\k_img.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\k_lib.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\l_big.jpg" />
@@ -497,9 +467,6 @@
     <None Include="Resources\l_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\l_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\m_big.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -507,9 +474,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\m_img.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\m_lib.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\n_big.jpg" />
@@ -521,9 +485,6 @@
     <None Include="Resources\n_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\n_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\o_big.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -531,9 +492,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\o_img.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\o_lib.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\p_big.jpg" />
@@ -545,9 +503,6 @@
     <None Include="Resources\p_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\p_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\q_big.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -557,16 +512,10 @@
     <None Include="Resources\q_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\q_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\r_big.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\r_img.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\r_lib.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\s_big.jpg" />
@@ -578,9 +527,6 @@
     <None Include="Resources\s_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\s_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\t_big.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -588,9 +534,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\t_img.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\t_lib.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\u_big.jpg" />
@@ -602,9 +545,6 @@
     <None Include="Resources\u_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\u_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\v_big.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -612,9 +552,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\v_img.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\v_lib.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\w_big.jpg" />
@@ -626,9 +563,6 @@
     <None Include="Resources\w_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\w_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\x_big.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -636,9 +570,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\x_img.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\x_lib.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\y_big.jpg" />
@@ -650,9 +581,6 @@
     <None Include="Resources\y_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\y_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\z_big.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -662,9 +590,6 @@
     <None Include="Resources\z_img.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\z_lib.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\a_big.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -672,9 +597,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\a_img.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\a_lib.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\b_big.jpg" />

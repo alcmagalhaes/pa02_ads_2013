@@ -339,6 +339,7 @@
             this.MaximumSize = new System.Drawing.Size(511, 600);
             this.MinimumSize = new System.Drawing.Size(511, 600);
             this.Name = "Memoria";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jogo da Memoria";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -36,31 +36,31 @@ namespace paLibras
         {
             imagens1 = new List<Bitmap>();
 
-            imagens1.Add(paLibras.Properties.Resources.a_img);
-            imagens1.Add(paLibras.Properties.Resources.b_img);
-            imagens1.Add(paLibras.Properties.Resources.c_img);
-            imagens1.Add(paLibras.Properties.Resources.d_img);
-            imagens1.Add(paLibras.Properties.Resources.e_img);
+            imagens1.Add(paLibras.Properties.Resources.p_img);
+            imagens1.Add(paLibras.Properties.Resources.y_img);
             imagens1.Add(paLibras.Properties.Resources.f_img);
             imagens1.Add(paLibras.Properties.Resources.g_img);
-            imagens1.Add(paLibras.Properties.Resources.h_img);
+            imagens1.Add(paLibras.Properties.Resources.c_img);
+            imagens1.Add(paLibras.Properties.Resources.r_img);
+            imagens1.Add(paLibras.Properties.Resources.l_img);
+            imagens1.Add(paLibras.Properties.Resources.a_img);
+            imagens1.Add(paLibras.Properties.Resources.o_img);
+            imagens1.Add(paLibras.Properties.Resources.e_img);
+            imagens1.Add(paLibras.Properties.Resources.u_img);
             imagens1.Add(paLibras.Properties.Resources.i_img);
+            imagens1.Add(paLibras.Properties.Resources.d_img);
+            imagens1.Add(paLibras.Properties.Resources.h_img);
+            imagens1.Add(paLibras.Properties.Resources.t_img);
+            imagens1.Add(paLibras.Properties.Resources.n_img);
+            imagens1.Add(paLibras.Properties.Resources.s_img);
+            imagens1.Add(paLibras.Properties.Resources.q_img);
             imagens1.Add(paLibras.Properties.Resources.j_img);
             imagens1.Add(paLibras.Properties.Resources.k_img);
-            imagens1.Add(paLibras.Properties.Resources.l_img);
-            imagens1.Add(paLibras.Properties.Resources.m_img);
-            imagens1.Add(paLibras.Properties.Resources.n_img);
-            imagens1.Add(paLibras.Properties.Resources.o_img);
-            imagens1.Add(paLibras.Properties.Resources.p_img);
-            imagens1.Add(paLibras.Properties.Resources.q_img);
-            imagens1.Add(paLibras.Properties.Resources.r_img);
-            imagens1.Add(paLibras.Properties.Resources.s_img);
-            imagens1.Add(paLibras.Properties.Resources.t_img);
-            imagens1.Add(paLibras.Properties.Resources.u_img);
-            imagens1.Add(paLibras.Properties.Resources.v_img);
-            imagens1.Add(paLibras.Properties.Resources.w_img);
             imagens1.Add(paLibras.Properties.Resources.x_img);
-            imagens1.Add(paLibras.Properties.Resources.y_img);
+            imagens1.Add(paLibras.Properties.Resources.b_img);
+            imagens1.Add(paLibras.Properties.Resources.m_img);
+            imagens1.Add(paLibras.Properties.Resources.w_img);
+            imagens1.Add(paLibras.Properties.Resources.v_img);
             imagens1.Add(paLibras.Properties.Resources.z_img);
 
         }
@@ -69,31 +69,31 @@ namespace paLibras
         {
             imagens2 = new List<Bitmap>();
 
-            imagens2.Add(paLibras.Properties.Resources.a);
-            imagens2.Add(paLibras.Properties.Resources.b);
-            imagens2.Add(paLibras.Properties.Resources.c);
-            imagens2.Add(paLibras.Properties.Resources.d);
-            imagens2.Add(paLibras.Properties.Resources.e);
+            imagens2.Add(paLibras.Properties.Resources.p);
+            imagens2.Add(paLibras.Properties.Resources.y);
             imagens2.Add(paLibras.Properties.Resources.f);
             imagens2.Add(paLibras.Properties.Resources.g);
-            imagens2.Add(paLibras.Properties.Resources.h);
+            imagens2.Add(paLibras.Properties.Resources.c);
+            imagens2.Add(paLibras.Properties.Resources.r);
+            imagens2.Add(paLibras.Properties.Resources.l);
+            imagens2.Add(paLibras.Properties.Resources.a);
+            imagens2.Add(paLibras.Properties.Resources.o);
+            imagens2.Add(paLibras.Properties.Resources.e);
+            imagens2.Add(paLibras.Properties.Resources.u);
             imagens2.Add(paLibras.Properties.Resources.i);
+            imagens2.Add(paLibras.Properties.Resources.d);
+            imagens2.Add(paLibras.Properties.Resources.h);
+            imagens2.Add(paLibras.Properties.Resources.t);
+            imagens2.Add(paLibras.Properties.Resources.n);
+            imagens2.Add(paLibras.Properties.Resources.s);
+            imagens2.Add(paLibras.Properties.Resources.q);
             imagens2.Add(paLibras.Properties.Resources.j);
             imagens2.Add(paLibras.Properties.Resources.k);
-            imagens2.Add(paLibras.Properties.Resources.l);
-            imagens2.Add(paLibras.Properties.Resources.m);
-            imagens2.Add(paLibras.Properties.Resources.n);
-            imagens2.Add(paLibras.Properties.Resources.o);
-            imagens2.Add(paLibras.Properties.Resources.p);
-            imagens2.Add(paLibras.Properties.Resources.q);
-            imagens2.Add(paLibras.Properties.Resources.r);
-            imagens2.Add(paLibras.Properties.Resources.s);
-            imagens2.Add(paLibras.Properties.Resources.t);
-            imagens2.Add(paLibras.Properties.Resources.u);
-            imagens2.Add(paLibras.Properties.Resources.v);
-            imagens2.Add(paLibras.Properties.Resources.w);
             imagens2.Add(paLibras.Properties.Resources.x);
-            imagens2.Add(paLibras.Properties.Resources.y);
+            imagens2.Add(paLibras.Properties.Resources.b);
+            imagens2.Add(paLibras.Properties.Resources.m);
+            imagens2.Add(paLibras.Properties.Resources.w);
+            imagens2.Add(paLibras.Properties.Resources.v);
             imagens2.Add(paLibras.Properties.Resources.z);
 
         }

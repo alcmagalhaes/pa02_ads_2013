@@ -135,13 +135,13 @@
             this.btnJogoMemoria.UseVisualStyleBackColor = true;
             this.btnJogoMemoria.Click += new System.EventHandler(this.btnJogoMemoria_Click);
             // 
-            // Form1
+            // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(715, 574);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Forca";
+            this.Name = "Principal";
             this.Text = "Aprendendo Alfabeto de Libras";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imgLetra)).EndInit();

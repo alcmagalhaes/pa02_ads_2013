@@ -103,16 +103,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap a_lib {
-            get {
-                object obj = ResourceManager.GetObject("a_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap b {
             get {
                 object obj = ResourceManager.GetObject("b", resourceCulture);
@@ -146,16 +136,6 @@ namespace paLibras.Properties {
         internal static System.Drawing.Bitmap b_img {
             get {
                 object obj = ResourceManager.GetObject("b_img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap b_lib {
-            get {
-                object obj = ResourceManager.GetObject("b_lib", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,16 +183,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap c_lib {
-            get {
-                object obj = ResourceManager.GetObject("c_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap d {
             get {
                 object obj = ResourceManager.GetObject("d", resourceCulture);
@@ -246,16 +216,6 @@ namespace paLibras.Properties {
         internal static System.Drawing.Bitmap d_img {
             get {
                 object obj = ResourceManager.GetObject("d_img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap d_lib {
-            get {
-                object obj = ResourceManager.GetObject("d_lib", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,16 +263,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap e_lib {
-            get {
-                object obj = ResourceManager.GetObject("e_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap f {
             get {
                 object obj = ResourceManager.GetObject("f", resourceCulture);
@@ -346,16 +296,6 @@ namespace paLibras.Properties {
         internal static System.Drawing.Bitmap f_img {
             get {
                 object obj = ResourceManager.GetObject("f_img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap f_lib {
-            get {
-                object obj = ResourceManager.GetObject("f_lib", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -743,16 +683,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap g_lib {
-            get {
-                object obj = ResourceManager.GetObject("g_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap g1 {
             get {
                 object obj = ResourceManager.GetObject("g1", resourceCulture);
@@ -803,16 +733,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap h_lib {
-            get {
-                object obj = ResourceManager.GetObject("h_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap i {
             get {
                 object obj = ResourceManager.GetObject("i", resourceCulture);
@@ -846,16 +766,6 @@ namespace paLibras.Properties {
         internal static System.Drawing.Bitmap i_img {
             get {
                 object obj = ResourceManager.GetObject("i_img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap i_lib {
-            get {
-                object obj = ResourceManager.GetObject("i_lib", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -903,16 +813,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap j_lib {
-            get {
-                object obj = ResourceManager.GetObject("j_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap k {
             get {
                 object obj = ResourceManager.GetObject("k", resourceCulture);
@@ -946,16 +846,6 @@ namespace paLibras.Properties {
         internal static System.Drawing.Bitmap k_img {
             get {
                 object obj = ResourceManager.GetObject("k_img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap k_lib {
-            get {
-                object obj = ResourceManager.GetObject("k_lib", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1003,16 +893,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap l_lib {
-            get {
-                object obj = ResourceManager.GetObject("l_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap m {
             get {
                 object obj = ResourceManager.GetObject("m", resourceCulture);
@@ -1046,16 +926,6 @@ namespace paLibras.Properties {
         internal static System.Drawing.Bitmap m_img {
             get {
                 object obj = ResourceManager.GetObject("m_img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap m_lib {
-            get {
-                object obj = ResourceManager.GetObject("m_lib", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1643,16 +1513,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap n_lib {
-            get {
-                object obj = ResourceManager.GetObject("n_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap o {
             get {
                 object obj = ResourceManager.GetObject("o", resourceCulture);
@@ -1686,16 +1546,6 @@ namespace paLibras.Properties {
         internal static System.Drawing.Bitmap o_img {
             get {
                 object obj = ResourceManager.GetObject("o_img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap o_lib {
-            get {
-                object obj = ResourceManager.GetObject("o_lib", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1743,16 +1593,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap p_lib {
-            get {
-                object obj = ResourceManager.GetObject("p_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap q {
             get {
                 object obj = ResourceManager.GetObject("q", resourceCulture);
@@ -1786,16 +1626,6 @@ namespace paLibras.Properties {
         internal static System.Drawing.Bitmap q_img {
             get {
                 object obj = ResourceManager.GetObject("q_img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap q_lib {
-            get {
-                object obj = ResourceManager.GetObject("q_lib", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1843,16 +1673,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap r_lib {
-            get {
-                object obj = ResourceManager.GetObject("r_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap s {
             get {
                 object obj = ResourceManager.GetObject("s", resourceCulture);
@@ -1886,16 +1706,6 @@ namespace paLibras.Properties {
         internal static System.Drawing.Bitmap s_img {
             get {
                 object obj = ResourceManager.GetObject("s_img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap s_lib {
-            get {
-                object obj = ResourceManager.GetObject("s_lib", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1943,16 +1753,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap t_lib {
-            get {
-                object obj = ResourceManager.GetObject("t_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap u {
             get {
                 object obj = ResourceManager.GetObject("u", resourceCulture);
@@ -1986,16 +1786,6 @@ namespace paLibras.Properties {
         internal static System.Drawing.Bitmap u_img {
             get {
                 object obj = ResourceManager.GetObject("u_img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap u_lib {
-            get {
-                object obj = ResourceManager.GetObject("u_lib", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2043,16 +1833,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap v_lib {
-            get {
-                object obj = ResourceManager.GetObject("v_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap w {
             get {
                 object obj = ResourceManager.GetObject("w", resourceCulture);
@@ -2086,16 +1866,6 @@ namespace paLibras.Properties {
         internal static System.Drawing.Bitmap w_img {
             get {
                 object obj = ResourceManager.GetObject("w_img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap w_lib {
-            get {
-                object obj = ResourceManager.GetObject("w_lib", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2143,16 +1913,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap x_lib {
-            get {
-                object obj = ResourceManager.GetObject("x_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap y {
             get {
                 object obj = ResourceManager.GetObject("y", resourceCulture);
@@ -2193,16 +1953,6 @@ namespace paLibras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap y_lib {
-            get {
-                object obj = ResourceManager.GetObject("y_lib", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap z {
             get {
                 object obj = ResourceManager.GetObject("z", resourceCulture);
@@ -2236,16 +1986,6 @@ namespace paLibras.Properties {
         internal static System.Drawing.Bitmap z_img {
             get {
                 object obj = ResourceManager.GetObject("z_img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap z_lib {
-            get {
-                object obj = ResourceManager.GetObject("z_lib", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

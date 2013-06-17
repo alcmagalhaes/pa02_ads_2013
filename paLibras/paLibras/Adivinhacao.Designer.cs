@@ -187,6 +187,7 @@
             this.ClientSize = new System.Drawing.Size(544, 533);
             this.Controls.Add(this.groupBox2);
             this.Name = "Adivinhacao";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jogo de Adivinhação";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.groupBox2.ResumeLayout(false);
